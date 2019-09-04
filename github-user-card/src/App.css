@@ -39,6 +39,10 @@
   margin-bottom: 30px;
 }
 
+.card-flex {
+  display: flex;
+}
+
 .card img {
   width: 150px;
   height: 150px;

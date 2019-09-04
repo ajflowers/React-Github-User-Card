@@ -17,11 +17,11 @@ class CardsList extends React.Component {
 
     render() {
         return(
-            <div className="card-list">
+            <div className="cards">
                 {this.state.userData.map(user => (
                     <UserCard 
                         user={user}
-                        key={user.id}
+                        key={user.login}
                     />
                 ))}                
             </div>
